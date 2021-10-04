@@ -47,7 +47,7 @@ navbar:
       #   href: Ethics_07_PPLSEthics.html
       # - text: "7: PPLS Ethics"
       #   href: Ethics_07_PPLSEthics.html
-    - text: "Programming Experiments"
+    - text: "Building Experiments"
       menu:
       - text: "Coming Soon"
       # - text: "1: Part One"
