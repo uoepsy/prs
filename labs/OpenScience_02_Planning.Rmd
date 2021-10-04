@@ -1,0 +1,96 @@
+---
+title: "Planning an Open Science Study"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video introduces the concept of pre-registration and outlines a Reproducible Research Checklist that students can apply to their own research.  
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand what a pre-registration is 
+1. Outline the key elements of a pre-registration via a “Reproducible Research Checklist” 
+1. Become aware of how you can apply the “Reproducible Research Checklist” to your own work, and the benefits of adopting this approach.  
+:::
+
+
+# Video 
+
+`r qbegin(1)`
+Think about how you would need to plan a research project, in order for it to be reproducible in a year's time? 
+
+You can find some potential answers after the video
+
+`r qend()`
+
+
+
+This video introduces the concept of pre-registration and outlines key steps to consider that can make your research project more reproducible. You will learn what pre-registration and registered reports are, as well as the difference between them. You will also learn how these open research practices can benefit your own work. You will also be introduced to the topic of the next video, which will be a worked example of a pre-registration. This video is led by Niamh MacSweeney, who is a PhD student in the Division of Psychiatry, and co-founder of Edinburgh ReproducibiliTea.  
+
+Contact: [Niamh.MacSweeney@ed.ac.uk](Niamh.MacSweeney@ed.ac.uk) or [edinburgh.reproducibilitea@ed.ac.uk](edinburgh.reproducibilitea@ed.ac.uk)
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_imefr34o&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_hwaw1pce" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+Download the slides for this presentation [here](Slides/pt2_TraceYourSteps.pdf).
+
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+How might you make a project more reproducible? Make sure to specify at least some of the below:
+
+- A clear research questions(s)
+- specific, concise, and testable hypotheses 
+- detailed information on your variables of interest
+- covariates
+- sample size 
+- detailed information on the statistical tests used to test hypotheses 
+- statistical and information criteria used to make inferences about results.  
+
+
+
+`r solend()`
+
+# Quiz
+
+Find more details in the Q&A below
+
+`r qbegin(2)`
+How will preregistration help with your dissertation? 
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+It will help with all of it, but especially the progress report! You will always have a project blueprint to which you can refer.  
+`r solend()`
+
+
+`r qbegin(3)`
+What is the main difference between a pre-registration and registered report? 
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+A pre-registration and registered report are both time-stamped research plans created before you begin data collection/data analysis, however, a registered report undergoes external peer review at a journal before the results are known. If the review goes well, the authors will receive an in-principle acceptance which means as long as the authors stick to their research plan, the journal will publish their findings regardless of what they find.  
+`r solend()`
+
+
+`r qbegin(4)`
+Do students need to adopt all the open science steps in this course?  
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+No. Open science is not an “all or nothing” approach  — any effort towards making your research more reproducible should be commended.  
+`r solend()`
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

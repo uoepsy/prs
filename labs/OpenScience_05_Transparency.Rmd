@@ -1,0 +1,103 @@
+---
+title: "Transparency and Open Research"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+In this video we will discuss why you should strive to be more transparent in your research and how you can go about this.
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Learn about some of the current problems with transparency in science
+1. Learn about steps you can take to improve the transparency in your own research
+1. Learn the difference between exploratory and confirmatory hypotheses and why it is important to distinguish between the two
+:::
+
+
+# Video 
+
+`r qbegin(1)`
+What does research integrity mean to you and how do you think research transparency could affect this?
+
+You can find some answers after the video
+
+`r qend()`
+
+
+
+In this final video of this series we are going to zoom out of the single-project focus and think more about science in general and how it has come to be that transparency in research is not always the norm (and why it really should be!). Then we'll focus again on what you can do to improve the transparency in your own research project. We'll summarise some key points as we round up this series. 
+
+My name is Laura Klinkhamer, I am a PhD student in Edinburgh Palliative and Supportive Care Group at IGMM/Division of Psychiatry and co-organiser of Edinburgh ReproducibiliTea.
+
+Contact: [lklinkha@exseed.ed.ac.uk](lklinkha@exseed.ed.ac.uk) or [edinburgh.reproducibilitea@ed.ac.uk](edinburgh.reproducibilitea@ed.ac.uk)
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_423ncgu7&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_55d2vp5k" width="640" height="456" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+
+Download the slides for this presentation [here](Slides/be_transparent.pdf).
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+"Research Integrity means conducting research in such a way that allows others to have confidence and trust in the methods and the findings of the research. It relates both to the scientific integrity of conducted research and to the professional integrity of researchers."
+[https://www.ed.ac.uk/research-office/research-integrity/what-is-research-integrity](https://www.ed.ac.uk/research-office/research-integrity/what-is-research-integrity)
+
+We could turn the question around and ask ourselves: how could we have research integrity without transparency? If it is unclear what exactly the researcher has done to reach certain conclusions, then how can we judge whether to trust these methods and findings? 
+
+
+`r solend()`
+
+# Quiz
+
+
+`r qbegin(2)`
+Q. What are the three T's for open science research?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+
+- Think before you do 
+- Trace your steps 
+- be Transparent
+
+`r solend()`
+
+`r qbegin(3)`
+Q. Why are significant results more important than non-significant results?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+
+ Trick question! They are NOT more important than non-significant results
+ 
+`r solend()`
+
+`r qbegin(4)`
+Q. What does HARKing stand for and what can you do to prevent it?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+
+** Hypothesising After Results are Known.**
+
+To prevent it you can clearly state in your research plan what specific hypotheses you are going to test and how, preferably before you start your analysis phase.  
+Specify which ones are confirmatory and which ones are exploratory and present and interpret the results accordingly (e.g., with more caution for exploratory analyses). 
+ 
+`r solend()`
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

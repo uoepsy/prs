@@ -1,0 +1,8 @@
+---
+title: "Course contacts"
+output: 
+  bookdown::html_document2:
+    toc: false
+---
+
+For further details and questions about this course, contact [hugh.rabagliati@ed.ac.uk](mailto:hugh.rabagliati@ed.ac.uk).

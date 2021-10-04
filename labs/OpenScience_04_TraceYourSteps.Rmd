@@ -1,0 +1,89 @@
+---
+title: "Record Keeping: Trace Your Steps"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+In this video we will discuss some strategies to help you keep track of your research project as it progresses, making it easier to finally analyze your data and write up your results.
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Learn how to take notes on your progress consistently.
+1. Learn how to efficiently organise your files.
+:::
+
+
+# Video 
+
+`r qbegin(1)`
+You might start writing up your dissertation months after you first designed your research project. What sort of strategies would help your future self to remember the decisions you made during those early stages?
+
+
+You can find some suggested answers after the video
+
+`r qend()`
+
+
+
+The human memory is imperfect, as you may (or may not!) remember from some of your undergraduate courses. We could try to ignore this fact, or we could accept our human flaws and come up with strategies to help ourselves. In this video we will discuss some strategies specific to keeping clear records of your research, which will help you when you are writing about your research (progress report, dissertation, posters etc.) and during your analysis. 
+
+My name is Laura Klinkhamer, I am a PhD student in Edinburgh Palliative and Supportive Care Group at IGMM/Division of Psychiatry and co-organiser of Edinburgh ReproducibiliTea.
+
+Contact: [lklinkha@exseed.ed.ac.uk](lklinkha@exseed.ed.ac.uk) or [edinburgh.reproducibilitea@ed.ac.uk](edinburgh.reproducibilitea@ed.ac.uk)
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_8yiyc1p3&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_5h6j3ucr" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+Download the slides for this presentation [here](Slides/trace_your_steps.pdf).
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+Some potential answers to the prompt question:
+
+- Take notes on all aspects of your research process consistently in a designated file and/or using a specific tool (such as [Notion](https://www.notion.so/)).
+
+- Take time to organise your files efficiently so that you know which files contain what information (e.g. think of folder structure, file naming structure, version control, README files).
+
+
+`r solend()`
+
+# Quiz
+
+`r qbegin(2)`
+Three months ago, you and your supervisor decided that your project's data analysis should only focus on variable A, and not on variable B. But now, your supervisor is asking why variable B is not mentioned in your results section (note: This is a very realistic scenario!). How do you head off this awkward conversation?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+Refer back to your notes to avoid having to spend time on the same discussion again and potentially slow down your progress (this is a very realistic situation). 
+
+
+`r solend()`
+
+`r qbegin(3)`
+What would be useful information to put in a README file? 
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+- Your name & the date 
+- A description of what is in each file
+- Which version & date (if not already in the file name)
+- What information has been updated 
+- What this file is used for (e.g. datafile3 is used for to test the linear model between variable A and B). 
+
+`r solend()`
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

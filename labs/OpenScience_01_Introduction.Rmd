@@ -1,0 +1,105 @@
+---
+title: "An Introduction to Open Science"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video outlines key features of reproducible research and provides further details on this mini-course.
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand the difference between reproducible and replicable research
+2. Outline the core components that make research reproducible
+3. Become aware of how you can use this course to further your own learning and dissertation project
+:::
+
+
+# Video 
+
+`r qbegin(1)`
+What do you think researchers need to prioritise to make sure their work is reproducible?
+
+You can find answers after the video
+
+`r qend()`
+
+
+
+This video provides outlines the structure of this mini-course on reproducible research practice and lays the ground-work for later videos. You will learn what makes research reproducible, the important features of reproducible research and, importantly, how they relate to your own work. This video is led by Dr Alex Mitchell. who is a Teaching Fellow here in Psychology.
+
+Contact: [Alexandra.Mitchell@ed.ac.uk](Alexandra.Mitchell@ed.ac.uk) or [edinburgh.reproducibilitea@ed.ac.uk](edinburgh.reproducibilitea@ed.ac.uk)
+
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_gus5652a&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_d2de6nlg" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+Download the slides for this presentation [here](Slides/RTEA_Y4intro.pdf).
+
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+All of these steps will help to make science more reproducible.
+
+- A scientist's workflow needs to be transparent.
+- Data needs to be open.
+- Steps should be traceable.
+- Research should be accessible to others.
+- Methods are easily replicable.
+
+`r solend()`
+
+# Quiz
+
+The Q&A below provides key information for this course 
+
+`r qbegin(2)`
+What aspect of my dissertation will this course likely aid the most?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+The course will aid all of your dissertation! But especially completing the progress report – which requires pre-planning necessary in reproducible research
+
+`r solend()`
+
+`r qbegin(3)`
+What is the biggest challenge researchers face when making their own work reproducible?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+There are many, many challenges, but perhaps the most difficult will be changing the hard-learned research practices of older researchers (perhaps like your dissertation adviser!) and adapting to ‘new’ and more rigorous ways of doing research.
+
+`r solend()`
+
+`r qbegin(4)`
+What is the key difference between ‘reproducible’ and ‘replicable’ research?
+
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+Reproducible research refers to the entire research process and ensures that researchers can reproduce the same result with the same data. Replicable refers to researchers being able to copy precisely the same methods (and ideally the same results) with a different data-set.
+`r solend()`
+
+`r qbegin(5)`
+Do researchers need to follow *all* the steps outlined in this course?
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+No- any effort towards making your research reproducible should be of benefit!
+
+`r solend()`
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

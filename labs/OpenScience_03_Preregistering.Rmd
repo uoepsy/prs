@@ -1,0 +1,66 @@
+---
+title: "Preregistration"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video takes students through a worked example of a pre-registration 
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+
+- Understand what a pre-registration is 
+- Outline the key elements of a pre-registration via a “Reproducible Research Checklist” 
+- Become aware of how you can apply the “Reproducible Research Checklist” to your own work, and the benefits of adopting this approach.  
+ 
+:::
+
+
+# Video 
+
+`r qbegin(1)`
+What are some of key details that need to be included in a research project in order for it to be reproducible? 
+
+`r qend()`
+
+
+
+Using the “Reproducible Research Checklist”, which was introduced in the previous video, this video goes through each step and provides an example of  the information you might include in a preregistration. This video is led by Niamh MacSweeney, a PhD student in the Division of Psychiatry, who will be using an example of a pre-registration from her own research. Niamh will guide you each step of the “Reproducible Research Checklist” and provide an example of the kind of detail required in a pre-registration. 
+
+Contact: [Niamh.MacSweeney@ed.ac.uk](Niamh.MacSweeney@ed.ac.uk) or [edinburgh.reproducibilitea@ed.ac.uk](edinburgh.reproducibilitea@ed.ac.uk)
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_v8somng6&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_abxlexxs" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+Download the slides for this presentation [here](Slides/pt3_RTEA_Y4_part2_NM.pdf).
+
+
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+How might you make a project more reproducible? Make sure to specify at least some of the below:
+
+- A clear research questions(s)
+- specific, concise, and testable hypotheses 
+- detailed information on your variables of interest
+- covariates
+- sample size 
+- detailed information on the statistical tests used to test hypotheses 
+- statistical and information criteria used to make inferences about results.  
+
+`r solend()`
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

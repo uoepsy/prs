@@ -1,0 +1,72 @@
+name: "Practical Research Skills"
+output_dir: "../docs/labs"
+navbar:
+  title: "<strong>Practical Research Skills</strong>"
+  type: default
+  left:
+    - icon: "fa-home"
+      href: index.html
+    - text: "Reading & Thinking"
+      menu:
+      - text: "Coming Soon"
+        #href: 1_1_part_one.html
+    - text: "Asking a Question"
+      menu:
+      - text: "1: Constructing a hypothesis"
+        href: Question_01_constructing.html
+      - text: "2: Testing a hypothesis"
+        href: Question_02_testing.html
+      - text: "3: Reviewing the Literature"
+        href: Question_03_reviewing.html
+    - text: "Open Science"
+      menu:
+      - text: "1: Introduction"
+        href: OpenScience_01_Introduction.html
+      - text: "2: Planning"
+        href: OpenScience_02_Planning.html
+      - text: "3: Preregistering"
+        href: OpenScience_03_Preregistering.html
+      - text: "4: Record Keeping"
+        href: OpenScience_04_TraceYourSteps.html
+      - text: "5: Transparency"
+        href: OpenScience_05_Transparency.html
+    - text: "Research Ethics"
+      menu:
+      - text: "Coming Soon"
+      # - text: "1: Ethical Principles"
+      #   href: Ethics_01_principles.html
+      # - text: "2: Types of Data"
+      #   href: Ethics_02_data.html
+      # - text: "3: Privacy and Security"
+      #   href: Ethics_03_privacy.html
+      # - text: "4: Anonymity and Confidentiality"
+      #   href: Ethics_04_confidentiality.html
+      # - text: "5: Informed Consent"
+      #   href: Ethics_05_consent.html
+      # - text: "6: Ethical Review"
+      #   href: Ethics_07_PPLSEthics.html
+      # - text: "7: PPLS Ethics"
+      #   href: Ethics_07_PPLSEthics.html
+    - text: "Programming Experiments"
+      menu:
+      - text: "Coming Soon"
+      # - text: "1: Part One"
+      #   href: 4_1_part_one.html
+
+  right:
+    - text: "Help"
+      menu: 
+        - text: "About the course"
+          href: about.html
+        #- text: "Getting started with R & RStudio"
+        #  href: intro_r_rstudio.html
+output: 
+  bookdown::html_document2:
+    toc: true
+    toc_float: true
+    theme: cosmo
+    number_sections: false
+    include:
+      in_header: assets/toggling.html
+      after_body: https://uoepsy.github.io/assets/ccfooter.html
+    css: assets/style-labs.css
