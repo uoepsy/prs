@@ -1,5 +1,5 @@
 name: "Practical Research Skills"
-output_dir: "../docs/labs"
+output_dir: "../docs/"
 navbar:
   title: "<strong>Practical Research Skills</strong>"
   type: default
