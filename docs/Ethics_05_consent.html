@@ -13,7 +13,7 @@
 
 <title>Categorical predictors and assumptions</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -360,7 +360,7 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
   </a>
 </li>
@@ -496,7 +496,7 @@ In the other version of the game, the “colour” game type, pegs and shapes di
 The task was to click and drag each peg to the space with the matching shape.</p>
 <p>They randomly recruited 40 students from the same university. Half were randomly assigned to the standard game and the other half to the colour distracter version.
 All participants would play in similar conditions: same location and similar background noise to control for possible distractions.</p>
-<div class="figure" style="text-align: center"><span id="fig:dc-perfection-image"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:dc-perfection-image"></span>
 <img src="images/perfection.png" alt="Electronic Perfection game with and without colour distracters. The instructions for the game were to click and drag each peg to the space with the matching shape." width="60%" />
 <p class="caption">
 Figure 1: Electronic Perfection game with and without colour distracters. The instructions for the game were to click and drag each peg to the space with the matching shape.
@@ -616,7 +616,7 @@ Solution <span id="sol-start-52" class="fa fa-plus solution-icon clickable" oncl
 
 perfection &lt;- read_csv(&#39;https://uoepsy.github.io/data/perfection.csv&#39;)
 head(perfection)</code></pre>
-<pre><code>## # A tibble: 6 × 3
+<pre><code>## # A tibble: 6 x 3
 ##   student_id type      time
 ##        &lt;dbl&gt; &lt;chr&gt;    &lt;dbl&gt;
 ## 1          1 Standard    38
@@ -631,7 +631,7 @@ Let’s fix it:</p>
   mutate(type = as.factor(type))
 
 head(perfection)</code></pre>
-<pre><code>## # A tibble: 6 × 3
+<pre><code>## # A tibble: 6 x 3
 ##   student_id type      time
 ##        &lt;dbl&gt; &lt;fct&gt;    &lt;dbl&gt;
 ## 1          1 Standard    38
@@ -683,7 +683,7 @@ Solution <span id="sol-start-54" class="fa fa-plus solution-icon clickable" oncl
 <pre class="r"><code>perfection %&gt;%
   group_by(type) %&gt;%
   summarise(n = n())</code></pre>
-<pre><code>## # A tibble: 2 × 2
+<pre><code>## # A tibble: 2 x 2
 ##   type         n
 ##   &lt;fct&gt;    &lt;int&gt;
 ## 1 Colour      20
@@ -714,7 +714,7 @@ Solution <span id="sol-start-55" class="fa fa-plus solution-icon clickable" oncl
 <pre class="r"><code>perfection %&gt;%
   summarise(M = mean(time),
             SD = sd(time))</code></pre>
-<pre><code>## # A tibble: 1 × 2
+<pre><code>## # A tibble: 1 x 2
 ##       M    SD
 ##   &lt;dbl&gt; &lt;dbl&gt;
 ## 1  36.8  3.71</code></pre>
@@ -742,7 +742,7 @@ Solution <span id="sol-start-56" class="fa fa-plus solution-icon clickable" oncl
 <p><strong>Option 1: Boxplots by group</strong></p>
 <pre class="r"><code>ggplot(perfection, aes(x = type, y = time)) +
   geom_boxplot()</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:perfection-boxplots"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:perfection-boxplots"></span>
 <img src="Ethics_05_consent_files/figure-html/perfection-boxplots-1.png" alt="Boxplots of competion times by game type." width="60%" />
 <p class="caption">
 Figure 2: Boxplots of competion times by game type.
@@ -751,7 +751,7 @@ Figure 2: Boxplots of competion times by game type.
 <p><strong>Option 2: Dotplots by group</strong></p>
 <pre class="r"><code>ggplot(perfection, aes(x = type, y = time)) +
   geom_dotplot(binaxis = &#39;y&#39;)</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:perfection-dotplots"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:perfection-dotplots"></span>
 <img src="Ethics_05_consent_files/figure-html/perfection-dotplots-1.png" alt="Dotplots of competion times by game type." width="60%" />
 <p class="caption">
 Figure 3: Dotplots of competion times by game type.
@@ -766,7 +766,7 @@ Figure 3: Dotplots of competion times by game type.
 <pre class="r"><code>ggplot(perfection, aes(x = time)) +
   geom_histogram(binwidth = 1, color = &#39;white&#39;) +
   facet_grid(rows = vars(type))</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:perfection-histograms"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:perfection-histograms"></span>
 <img src="Ethics_05_consent_files/figure-html/perfection-histograms-1.png" alt="Histograms of competion times for each game type." width="60%" />
 <p class="caption">
 Figure 4: Histograms of competion times for each game type.
@@ -777,7 +777,7 @@ Figure 4: Histograms of competion times for each game type.
 <pre class="r"><code>ggplot(perfection, aes(x = type, y = time)) +
   geom_violin() +
   stat_summary(fun = mean, color = &#39;red&#39;)</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:perfection-violins"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:perfection-violins"></span>
 <img src="Ethics_05_consent_files/figure-html/perfection-violins-1.png" alt="Histograms of competion times for each game type." width="60%" />
 <p class="caption">
 Figure 5: Histograms of competion times for each game type.
@@ -793,7 +793,7 @@ The summary statistics by group can be computed as follows:</p>
             sd_time = sd(time))
 
 stats_time</code></pre>
-<pre><code>## # A tibble: 2 × 4
+<pre><code>## # A tibble: 2 x 4
 ##   type         n mean_time sd_time
 ##   &lt;fct&gt;    &lt;int&gt;     &lt;dbl&gt;   &lt;dbl&gt;
 ## 1 Colour      20      38.1    3.65
@@ -1178,7 +1178,7 @@ We can also test for autocorrelation using the Durbin-Watson test from the <code
 <pre class="r"><code>library(car)
 durbinWatsonTest(mdl_perf)</code></pre>
 <pre><code>##  lag Autocorrelation D-W Statistic p-value
-##    1      0.05821787      1.805711   0.522
+##    1      0.05821787      1.805711   0.534
 ##  Alternative hypothesis: rho != 0</code></pre>
 <div class="int">
 <p>We performed a Durbin-Watson test against the null hypothesis of no correlation (<span class="math inline">\(DQ = 1.80\)</span>, <span class="math inline">\(p = 0.522\)</span>, two-sided).
@@ -1325,6 +1325,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

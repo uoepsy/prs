@@ -13,7 +13,7 @@
 
 <title>Simple linear regression</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -360,7 +360,7 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
   </a>
 </li>
@@ -666,7 +666,7 @@ Solution <span id="sol-start-4" class="fa fa-plus solution-icon clickable" oncli
 
 riverview &lt;- read_csv(file = &quot;https://uoepsy.github.io/data/riverview.csv&quot;)
 head(riverview)</code></pre>
-<pre><code>## # A tibble: 6 × 6
+<pre><code>## # A tibble: 6 x 6
 ##   education income seniority gender  male party      
 ##       &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;      
 ## 1         8   37.4         7 male       1 Democrat   
@@ -712,7 +712,7 @@ Solution <span id="sol-start-5" class="fa fa-plus solution-icon clickable" oncli
   geom_boxplot(width = 1/300) +
   labs(x = &quot;Income (in thousands of U.S. dollars)&quot;, 
        y = &quot;Probability density&quot;)</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-3"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-3"></span>
 <img src="Ethics_02_data_files/figure-html/unnamed-chunk-3-1.png" alt="Density plot and boxplot of employee incomes." width="60%" />
 <p class="caption">
 Figure 1: Density plot and boxplot of employee incomes.
@@ -728,7 +728,7 @@ Furthermore, the boxplot does not highlight any outliers in the data.</p>
     M = mean(income), 
     SD = sd(income)
     )</code></pre>
-<pre><code>## # A tibble: 1 × 2
+<pre><code>## # A tibble: 1 x 2
 ##       M    SD
 ##   &lt;dbl&gt; &lt;dbl&gt;
 ## 1  53.7  14.6</code></pre>
@@ -757,7 +757,7 @@ Solution <span id="sol-start-6" class="fa fa-plus solution-icon clickable" oncli
   geom_boxplot(width = 1/100) +
   labs(x = &quot;Education (in years)&quot;, 
        y = &quot;Probability density&quot;)</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-5"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-5"></span>
 <img src="Ethics_02_data_files/figure-html/unnamed-chunk-5-1.png" alt="Density plot and boxplot of employee education levels." width="60%" />
 <p class="caption">
 Figure 2: Density plot and boxplot of employee education levels.
@@ -769,7 +769,7 @@ Figure 2: Density plot and boxplot of employee education levels.
     M = mean(education),
     SD = sd(education)
     )</code></pre>
-<pre><code>## # A tibble: 1 × 2
+<pre><code>## # A tibble: 1 x 2
 ##       M    SD
 ##   &lt;dbl&gt; &lt;dbl&gt;
 ## 1    16  4.36</code></pre>
@@ -809,7 +809,7 @@ Hence income is the dependent variable (on the y-axis), and education is the ind
   geom_point(alpha = 0.5) +
   labs(x = &quot;Education (in years)&quot;, 
        y = &quot;Income (in thousands of U.S. dollars)&quot;)</code></pre>
-<div class="figure" style="text-align: center"><span id="fig:riverview-scatterplot"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:riverview-scatterplot"></span>
 <img src="Ethics_02_data_files/figure-html/riverview-scatterplot-1.png" alt="The relationship between employees' education level and income." width="60%" />
 <p class="caption">
 Figure 3: The relationship between employees’ education level and income.
@@ -1209,7 +1209,7 @@ Solution <span id="sol-start-17" class="fa fa-plus solution-icon clickable" oncl
   )
 
 head(riverview_fitted)</code></pre>
-<pre><code>## # A tibble: 6 × 8
+<pre><code>## # A tibble: 6 x 8
 ##   education income seniority gender  male party       income_hat  resid
 ##       &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;
 ## 1         8   37.4         7 male       1 Democrat          32.5   4.92
@@ -1282,7 +1282,7 @@ head(riverview_fitted)</code></pre>
 <em>Recall that a standard error gives a numerical answer to the question of how variable a statistic will be because of random sampling.</em></p>
 <p>The standard errors are found in the column “Std. Error.” That is, the SE of the intercept is 6.1232, and the SE of the slope corresponding to the education variable is 0.3696.</p>
 <p>In this example the slope, 2.651, has a standard error of 0.37. One way to envision this is as a distribution. Our best guess (mean) for the slope parameter is 2.651. The standard deviation of this distribution is 0.37, which indicates the precision (uncertainty) of our estimate.</p>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-16"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-16"></span>
 <img src="Ethics_02_data_files/figure-html/unnamed-chunk-16-1.png" alt="Sampling distribution of the slope coefficient. The distribution is approximately bell-shaped with a mean of 2.651 and a standard error of 0.37." width="60%" />
 <p class="caption">
 Figure 4: Sampling distribution of the slope coefficient. The distribution is approximately bell-shaped with a mean of 2.651 and a standard error of 0.37.
@@ -1380,7 +1380,7 @@ tstar</code></pre>
   upper = 2.6513 + tstar * 0.3696,
 )
 beta1_ci</code></pre>
-<pre><code>## # A tibble: 1 × 2
+<pre><code>## # A tibble: 1 x 2
 ##   lower upper
 ##   &lt;dbl&gt; &lt;dbl&gt;
 ## 1  1.90  3.41</code></pre>
@@ -1454,6 +1454,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

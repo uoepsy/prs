@@ -13,7 +13,7 @@
 
 <title>Getting started with R &amp; RStudio</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -336,7 +336,7 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
   </a>
 </li>
@@ -683,7 +683,7 @@ Task
 </div>
 <div id="rmarkdown" class="section level3">
 <h3>Rmarkdown</h3>
-<div class="figure" style="text-align: center"><span id="fig:unnamed-chunk-4"></span>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:unnamed-chunk-4"></span>
 <img src="images/ahorst/rmarkdown_wizards.png" alt="Artwork by \@allison_horst" width="60%" />
 <p class="caption">
 Figure 1: Artwork by @allison_horst
@@ -955,7 +955,7 @@ Task - Read data into R
 </div>
 <p>Now that we’ve got our data in R, we can print it out by simply invoking its name:</p>
 <pre class="r"><code>beatles</code></pre>
-<pre><code>## # A tibble: 4 × 2
+<pre><code>## # A tibble: 4 x 2
 ##   name   birth_year
 ##   &lt;chr&gt;       &lt;dbl&gt;
 ## 1 John         1940
@@ -1187,6 +1187,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')

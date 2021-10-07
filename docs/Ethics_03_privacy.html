@@ -13,7 +13,7 @@
 
 <title>Model fit and standardization</title>
 
-<script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -360,7 +360,7 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
   </a>
 </li>
@@ -661,7 +661,7 @@ Solution <span id="sol-start-22" class="fa fa-plus solution-icon clickable" oncl
 
 riverview &lt;- read_csv(file = &quot;https://uoepsy.github.io/data/riverview.csv&quot;)
 head(riverview)</code></pre>
-<pre><code>## # A tibble: 6 × 6
+<pre><code>## # A tibble: 6 x 6
 ##   education income seniority gender  male party      
 ##       &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;      
 ## 1         8   37.4         7 male       1 Democrat   
@@ -726,7 +726,7 @@ R^2 = \frac{SS_{Model}}{SS_{Total}} = 1 - \frac{SS_{Residual}}{SS_{Total}}
     resid = income - income_hat
   )
 head(riverview_fitted)</code></pre>
-<pre><code>## # A tibble: 6 × 8
+<pre><code>## # A tibble: 6 x 8
 ##   education income seniority gender  male party       income_hat  resid
 ##       &lt;dbl&gt;  &lt;dbl&gt;     &lt;dbl&gt; &lt;chr&gt;  &lt;dbl&gt; &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt;
 ## 1         8   37.4         7 male       1 Democrat          32.5   4.92
@@ -743,7 +743,7 @@ head(riverview_fitted)</code></pre>
   summarise(
     RSquared = SSModel / SSTotal
   )</code></pre>
-<pre><code>## # A tibble: 1 × 1
+<pre><code>## # A tibble: 1 x 1
 ##   RSquared
 ##      &lt;dbl&gt;
 ## 1    0.632</code></pre>
@@ -849,7 +849,7 @@ f_star</code></pre>
     FObs = MSModel / MSResid
   )
 model_utility</code></pre>
-<pre><code>## # A tibble: 1 × 5
+<pre><code>## # A tibble: 1 x 5
 ##   SSModel SSResid MSModel MSResid  FObs
 ##     &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt; &lt;dbl&gt;
 ## 1   4147.   2418.   4147.    80.6  51.5</code></pre>
@@ -1029,14 +1029,14 @@ Solution <span id="sol-start-29" class="fa fa-plus solution-icon clickable" oncl
     mean_income = mean(income)
   )
 stats</code></pre>
-<pre><code>## # A tibble: 1 × 2
+<pre><code>## # A tibble: 1 x 2
 ##   mean_education mean_income
 ##            &lt;dbl&gt;       &lt;dbl&gt;
 ## 1             16        53.7</code></pre>
 <p>Prediction:</p>
 <pre class="r"><code>query &lt;- tibble(education = stats$mean_education)
 query</code></pre>
-<pre><code>## # A tibble: 1 × 1
+<pre><code>## # A tibble: 1 x 1
 ##   education
 ##       &lt;dbl&gt;
 ## 1        16</code></pre>
@@ -1112,7 +1112,7 @@ Solution <span id="sol-start-31" class="fa fa-plus solution-icon clickable" oncl
     M_z_education = mean(z_education), SD_z_education = sd(z_education), 
     M_z_income = mean(z_income), SD_z_income = sd(z_income)
   )</code></pre>
-<pre><code>## # A tibble: 1 × 4
+<pre><code>## # A tibble: 1 x 4
 ##   M_z_education SD_z_education M_z_income SD_z_income
 ##           &lt;dbl&gt;          &lt;dbl&gt;      &lt;dbl&gt;       &lt;dbl&gt;
 ## 1      1.73e-18              1  -1.28e-16           1</code></pre>
@@ -1254,6 +1254,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
