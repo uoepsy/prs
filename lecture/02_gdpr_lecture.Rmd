@@ -197,7 +197,7 @@ class: left, top
 # Practical implications
 
 ### **1. Plan for your data. **
-Consider what data, personal data, and sensitive personal data you need to collect. You will need to justify this when you apply for ethical approval.
+Consider what data, personal data, and sensitive personal data you need to collect. You will need to justify this when you apply for ethical approval in a Data Protection Impact Assessment (DPIA).
 
 ### **2. Design your consent form right**
 The PPLS ethics portal contains example consent forms that will help you appropriately tell participants what data you will collect, and how they can contact you.

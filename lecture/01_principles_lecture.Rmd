@@ -71,7 +71,7 @@ style_mono_accent(
 
 # Plan for this mini-course
 
-### **Learning to do psychology**
+### **Learn to do Research Ethics**
 
 - The principles behind ethical research
 
@@ -228,7 +228,7 @@ class: left, top
 
 ---
 class: left, top
-# Fidelity and scientific integrity
+# Scientific value
 
 Psychological science is a ** community ** exercise: Your participants, your collaborators, your readers and your peers.
 

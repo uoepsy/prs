@@ -423,7 +423,13 @@ div.tocify {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
-    <li class="dropdown-header">Coming Soon</li>
+    <li>
+      <a href="Ethics_01_principles.html">1: Ethical Principles</a>
+    </li>
+    <li>
+      <a href="Ethics_02_data.html">2: Ethics &amp; GDPR</a>
+    </li>
+    <li class="dropdown-header">More Coming Soon</li>
   </ul>
 </li>
 <li class="dropdown">
@@ -482,9 +488,9 @@ div.tocify {
 <p>A group of students wanted to answer the above research question. To do so, they designed a standard computerized game and a second version with distracting colours. Time to completion and type of game played were recorded for each study participant.
 See the data description below for more information.</p>
 <div class="optional-begin">
-Data: perfection.csv. Click the plus to expand →<span id="opt-start-85" class="fa fa-plus optional-icon clickable" onclick="toggle_visibility(&#39;opt-body-85&#39;, &#39;opt-start-85&#39;)"></span>
+Data: perfection.csv. Click the plus to expand →<span id="opt-start-69" class="fa fa-plus optional-icon clickable" onclick="toggle_visibility(&#39;opt-body-69&#39;, &#39;opt-start-69&#39;)"></span>
 </div>
-<div id="opt-body-85" class="optional-body" style="display: none;">
+<div id="opt-body-69" class="optional-body" style="display: none;">
 <p><strong>Download link</strong></p>
 <p><a href="https://uoepsy.github.io/data/perfection.csv">Download the data here</a></p>
 <p><strong>Description</strong></p>
@@ -609,9 +615,9 @@ Question 1
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-86" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-86&#39;, &#39;sol-start-86&#39;)"></span>
+Solution <span id="sol-start-70" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-70&#39;, &#39;sol-start-70&#39;)"></span>
 </div>
-<div id="sol-body-86" class="solution-body" style="display: none;">
+<div id="sol-body-70" class="solution-body" style="display: none;">
 <pre class="r"><code>library(tidyverse)
 
 perfection &lt;- read_csv(&#39;https://uoepsy.github.io/data/perfection.csv&#39;)
@@ -653,9 +659,9 @@ Question 2
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-87" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-87&#39;, &#39;sol-start-87&#39;)"></span>
+Solution <span id="sol-start-71" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-71&#39;, &#39;sol-start-71&#39;)"></span>
 </div>
-<div id="sol-body-87" class="solution-body" style="display: none;">
+<div id="sol-body-71" class="solution-body" style="display: none;">
 <p>Units: each student.</p>
 <p>Population: set of all students at this university who would be willing to be part of the study.</p>
 <p>Explanatory variable: type of game (standard or with a colour distracter). Type: categorical.</p>
@@ -673,9 +679,9 @@ Question 3
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-88" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-88&#39;, &#39;sol-start-88&#39;)"></span>
+Solution <span id="sol-start-72" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-72&#39;, &#39;sol-start-72&#39;)"></span>
 </div>
-<div id="sol-body-88" class="solution-body" style="display: none;">
+<div id="sol-body-72" class="solution-body" style="display: none;">
 <p>Type of game played is a categorical variable. We visualise it, for example, with a bar plot:</p>
 <pre class="r"><code>ggplot(perfection, aes(x = type)) +
   geom_bar()</code></pre>
@@ -704,9 +710,9 @@ Question 4
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-89" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-89&#39;, &#39;sol-start-89&#39;)"></span>
+Solution <span id="sol-start-73" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-73&#39;, &#39;sol-start-73&#39;)"></span>
 </div>
-<div id="sol-body-89" class="solution-body" style="display: none;">
+<div id="sol-body-73" class="solution-body" style="display: none;">
 <pre class="r"><code>ggplot(perfection, aes(x = time)) +
   geom_density() +
   geom_boxplot(width = 1/100)</code></pre>
@@ -735,9 +741,9 @@ Question 5
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-90" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-90&#39;, &#39;sol-start-90&#39;)"></span>
+Solution <span id="sol-start-74" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-74&#39;, &#39;sol-start-74&#39;)"></span>
 </div>
-<div id="sol-body-90" class="solution-body" style="display: none;">
+<div id="sol-body-74" class="solution-body" style="display: none;">
 <p>There are many correct way to investigate the distribution of completion times by group.</p>
 <p><strong>Option 1: Boxplots by group</strong></p>
 <pre class="r"><code>ggplot(perfection, aes(x = type, y = time)) +
@@ -839,9 +845,9 @@ Question 6
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-91" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-91&#39;, &#39;sol-start-91&#39;)"></span>
+Solution <span id="sol-start-75" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-75&#39;, &#39;sol-start-75&#39;)"></span>
 </div>
-<div id="sol-body-91" class="solution-body" style="display: none;">
+<div id="sol-body-75" class="solution-body" style="display: none;">
 <p>Let <span class="math inline">\(\mu_C\)</span> represent the true mean response time of the colour group and <span class="math inline">\(\mu_S\)</span> the true mean response time of the standard group.</p>
 <ul>
 <li><p>Null hypothesis: <span class="math inline">\(H_0: \mu_C = \mu_S\)</span> (the mean completion time for the colour distracter game is equal to the mean completion time for the standard game).</p></li>
@@ -865,9 +871,9 @@ Question 7
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-92" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-92&#39;, &#39;sol-start-92&#39;)"></span>
+Solution <span id="sol-start-76" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-76&#39;, &#39;sol-start-76&#39;)"></span>
 </div>
-<div id="sol-body-92" class="solution-body" style="display: none;">
+<div id="sol-body-76" class="solution-body" style="display: none;">
 <p>First, we need to check if the two samples come from populations having the same variance:</p>
 <pre class="r"><code>var.test(time ~ type, data = perfection)</code></pre>
 <pre><code>## 
@@ -925,9 +931,9 @@ Time = \beta_0 + \beta_1 \ Type + \epsilon
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-93" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-93&#39;, &#39;sol-start-93&#39;)"></span>
+Solution <span id="sol-start-77" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-77&#39;, &#39;sol-start-77&#39;)"></span>
 </div>
-<div id="sol-body-93" class="solution-body" style="display: none;">
+<div id="sol-body-77" class="solution-body" style="display: none;">
 <pre class="r"><code>mdl_perf &lt;- lm(time ~ 1 + type, data = perfection)
 summary(mdl_perf)</code></pre>
 <pre><code>## 
@@ -965,9 +971,9 @@ Question 9
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-94" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-94&#39;, &#39;sol-start-94&#39;)"></span>
+Solution <span id="sol-start-78" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-78&#39;, &#39;sol-start-78&#39;)"></span>
 </div>
-<div id="sol-body-94" class="solution-body" style="display: none;">
+<div id="sol-body-78" class="solution-body" style="display: none;">
 <p>At the 5% significance level, both the intercept (<span class="math inline">\(t(38) = 48.31, p &lt; .001\)</span>, two-sided) and the slope (<span class="math inline">\(t(38) = -2.29, p = 0.028\)</span>, two-sided) are significantly different from zero.</p>
 <p>The F-statistic for model utility, in the case of simple linear regression, is simply the square t-statistic for the slope.
 The model involving game type as a predictor explains a significant amount of the variability in the response (<span class="math inline">\(F(1,38) = 5.23, p = 0.028\)</span>).
@@ -984,9 +990,9 @@ Question 10
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-95" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-95&#39;, &#39;sol-start-95&#39;)"></span>
+Solution <span id="sol-start-79" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-79&#39;, &#39;sol-start-79&#39;)"></span>
 </div>
-<div id="sol-body-95" class="solution-body" style="display: none;">
+<div id="sol-body-79" class="solution-body" style="display: none;">
 <p>Consider the again the <code>t.test()</code> output and the <code>lm()</code> output:</p>
 <pre class="r"><code>t_res</code></pre>
 <pre><code>## 
@@ -1056,9 +1062,9 @@ Question 11
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-96" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-96&#39;, &#39;sol-start-96&#39;)"></span>
+Solution <span id="sol-start-80" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-80&#39;, &#39;sol-start-80&#39;)"></span>
 </div>
-<div id="sol-body-96" class="solution-body" style="display: none;">
+<div id="sol-body-80" class="solution-body" style="display: none;">
 <p>Intercept</p>
 <div class="int">
 <p>The estimated average completion time for those playing the colour distracter game is 38.10 seconds.</p>
@@ -1093,9 +1099,9 @@ Question 12
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-97" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-97&#39;, &#39;sol-start-97&#39;)"></span>
+Solution <span id="sol-start-81" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-81&#39;, &#39;sol-start-81&#39;)"></span>
 </div>
-<div id="sol-body-97" class="solution-body" style="display: none;">
+<div id="sol-body-81" class="solution-body" style="display: none;">
 <p>As usual, there are multiple equivalent ways to check this. Below are a couple of possibilities.</p>
 <p>Some useful quantities:</p>
 <pre class="r"><code>perfection_check &lt;- perfection %&gt;%
@@ -1139,9 +1145,9 @@ Question 13
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-98" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-98&#39;, &#39;sol-start-98&#39;)"></span>
+Solution <span id="sol-start-82" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-82&#39;, &#39;sol-start-82&#39;)"></span>
 </div>
-<div id="sol-body-98" class="solution-body" style="display: none;">
+<div id="sol-body-82" class="solution-body" style="display: none;">
 <p>A plot of the residuals against the fitted values should not show any patterns or clumps. The values should appear as being randomly scattered.</p>
 <p>If there was a clear pattern, for example many consecutive points going upwards or downwards, we might have dependence of one observation from the previous ones.
 In the case of a categorical predictor, we do not want one group systematically lower or higher than the other.</p>
@@ -1154,9 +1160,9 @@ In the case of a categorical predictor, we do not want one group systematically 
 <p>The residuals appear to be randomly scattered with no clumps or patterns.</p>
 </div>
 <div class="optional-begin">
-Observations over time. Click the plus to expand →<span id="opt-start-99" class="fa fa-plus optional-icon clickable" onclick="toggle_visibility(&#39;opt-body-99&#39;, &#39;opt-start-99&#39;)"></span>
+Observations over time. Click the plus to expand →<span id="opt-start-83" class="fa fa-plus optional-icon clickable" onclick="toggle_visibility(&#39;opt-body-83&#39;, &#39;opt-start-83&#39;)"></span>
 </div>
-<div id="opt-body-99" class="optional-body" style="display: none;">
+<div id="opt-body-83" class="optional-body" style="display: none;">
 <p>The most common violation of this assumption happens when we have data collected over time.</p>
 <p>In this case a plot of the residuals against time should show no pattern, otherwise we would be in the presence of correlated errors.
 That is, knowing the value at time <span class="math inline">\(t\)</span> will let you predict the value at time <span class="math inline">\(t+1\)</span>.</p>
@@ -1199,9 +1205,9 @@ Question 14
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-100" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-100&#39;, &#39;sol-start-100&#39;)"></span>
+Solution <span id="sol-start-84" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-84&#39;, &#39;sol-start-84&#39;)"></span>
 </div>
-<div id="sol-body-100" class="solution-body" style="display: none;">
+<div id="sol-body-84" class="solution-body" style="display: none;">
 <p>Let’s create a histogram of the residuals, using 15 breaks of the x-axis:</p>
 <pre class="r"><code>hist(residuals(mdl_perf), breaks = 15)</code></pre>
 <p><img src="Ethics_07_PPLSEthics_files/figure-html/unnamed-chunk-22-1.png" width="60%" style="display: block; margin: auto;" /></p>
@@ -1235,9 +1241,9 @@ Question 15
 </p>
 </div>
 <div class="solution-begin">
-Solution <span id="sol-start-101" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-101&#39;, &#39;sol-start-101&#39;)"></span>
+Solution <span id="sol-start-85" class="fa fa-plus solution-icon clickable" onclick="toggle_visibility(&#39;sol-body-85&#39;, &#39;sol-start-85&#39;)"></span>
 </div>
-<div id="sol-body-101" class="solution-body" style="display: none;">
+<div id="sol-body-85" class="solution-body" style="display: none;">
 <p>The vertical spread of the residuals should roughly be the same everywhere.</p>
 <p>We can visually assess it by plotting the Pearson residuals against the fitted values:</p>
 <pre class="r"><code>residualPlot(mdl_perf)</code></pre>

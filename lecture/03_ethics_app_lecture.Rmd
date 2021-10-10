@@ -90,7 +90,7 @@ class: left, top
 
 - Review by one panel member if not collecting sensitive data.
 - Review by two panel members if collecting data from children, or collecting sensitive personal data.
-- Review by Head of Department if collecting dangerous data, or (as of August 2021) in-person data.
+- Review by Head of Department if collecting dangerous data, or (as of Autumn 2021) in-person data.
 
 ---
 class: left, top
@@ -104,6 +104,69 @@ class: left, top
 [https://resource.ppls.ed.ac.uk/ethics/]()
 
 ### **3. Craft your information sheet, consent forms, and any advertisements you want to publicise. **
+
+---
+class: left, top
+# PPLS Research Ethics Material
+
+![](images/PPLSWebsite.png)
+
+
+
+---
+class: left, top
+# What do I need to do for an ethics review.
+
+### **1. Familiarise yourself with the PPLS Research Ethics Materials**
+
+[https://www.ed.ac.uk/ppls/psychology/current/postgraduate/research-ethics](https://www.ed.ac.uk/ppls/psychology/current/postgraduate/research-ethics)
+
+### **2. With your supervisor, begin an ethics application on the PPLS portal.**
+[https://resource.ppls.ed.ac.uk/ethics/]()
+
+### **3. Craft your information sheet, consent forms, and any advertisements you want to publicise. **
+
+---
+class: left, top
+# PPLS Ethics Portal
+
+![](images/EthicsPortal.png)
+
+
+---
+class: left, top
+# What do I need to do for an ethics review.
+
+### **1. Familiarise yourself with the PPLS Research Ethics Materials**
+
+[https://www.ed.ac.uk/ppls/psychology/current/postgraduate/research-ethics](https://www.ed.ac.uk/ppls/psychology/current/postgraduate/research-ethics)
+
+### **2. With your supervisor, begin an ethics application on the PPLS portal.**
+[https://resource.ppls.ed.ac.uk/ethics/]()
+
+### **3. Craft your information sheet, consent forms, and any advertisements you want to publicise. **
+
+
+---
+class: left, top
+# PPLS Information Sheet
+
+![](images/InfoSheet.png)
+
+
+---
+class: left, top
+# PPLS Consent Form
+
+![](images/ConsentFrm.png)
+
+
+---
+class: left, top
+# PPLS Recruitment Ads
+
+![](images/RecruitmentAd.jpg)
+
 
 ---
 class: inverse, center, middle

@@ -32,11 +32,11 @@ navbar:
         href: OpenScience_05_Transparency.html
     - text: "Research Ethics"
       menu:
-      - text: "Coming Soon"
-      # - text: "1: Ethical Principles"
-      #   href: Ethics_01_principles.html
-      # - text: "2: Types of Data"
-      #   href: Ethics_02_data.html
+      - text: "1: Ethical Principles"
+        href: Ethics_01_principles.html
+      - text: "2: Ethics & GDPR"
+        href: Ethics_02_data.html
+      - text: "More Coming Soon"
       # - text: "3: Privacy and Security"
       #   href: Ethics_03_privacy.html
       # - text: "4: Anonymity and Confidentiality"
