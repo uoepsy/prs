@@ -36,13 +36,12 @@ navbar:
         href: Ethics_01_principles.html
       - text: "2: Ethics & GDPR"
         href: Ethics_02_data.html
-      - text: "More Coming Soon"
-      # - text: "3: Privacy and Security"
-      #   href: Ethics_03_privacy.html
-      # - text: "4: Anonymity and Confidentiality"
-      #   href: Ethics_04_confidentiality.html
-      # - text: "5: Informed Consent"
-      #   href: Ethics_05_consent.html
+      - text: "3: Guide to PPLS Ethics"
+        href: Ethics_03_intro.html
+      - text: "4: Creating an Information Sheet"
+        href: Ethics_04_infosheet.html
+      - text: "5: Ethics Applications"
+        href: Ethics_05_ethics_app.html
       # - text: "6: Ethical Review"
       #   href: Ethics_07_PPLSEthics.html
       # - text: "7: PPLS Ethics"

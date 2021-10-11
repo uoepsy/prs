@@ -73,7 +73,7 @@ style_mono_accent(
 class: left, top
 # How is research reviewed?
 
-![](images/EthicsPortal.png)
+![:scale 60%](images/EthicsPortal.png)
 
 - Review panel of local psychologists with diverse expertise.
 - Oversight by University ethics panel

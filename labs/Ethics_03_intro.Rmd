@@ -1,0 +1,49 @@
+---
+title: "The Edinburgh Ethics Process"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video outlines the key features of Edinburgh's ethics applications, and how to familiarise yourself with them.
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand the resources you can consult before your Ethics application.
+1. Understand the data you will need to provide for your Ethics application.
+:::
+
+
+# Video
+
+
+This video introduces you to the resources available to complete an ethics application at Edinburgh.
+
+The Psychology Ethics homepage can be found [here](https://www.ed.ac.uk/ppls/psychology/current/postgraduate/research-ethics). It contains links to information about BPS Ethical Principles, example information sheets and consent forms, Frequently Asked Questions, and more.
+
+The Psychology Ethics application form can be found [here](https://resource.ppls.ed.ac.uk/ethics/index.php). You will need an EASE login to access it.
+
+For questions and comments, contact [hugh.rabagliati@ed.ac.uk](hugh.rabagliati@ed.ac.uk).
+
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_fy0rj2xs&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_eba7k71e" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+`r knitr::include_url('Slides/03_ethics_app_lecture.html')`
+
+
+
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
