@@ -42,7 +42,7 @@ For questions and comments, contact [hugh.rabagliati@ed.ac.uk](hugh.rabagliati@e
 
 `r knitr::include_url('Slides/03_ethics_app_lecture.html')`
 
-
+Download the slides for this presentation [here](Slides/03_ethics_app_lecture.pdf).
 
 
 

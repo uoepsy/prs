@@ -50,6 +50,8 @@ The General Data Protection Regulations, or GDPR, are a set of European Union an
 
 `r knitr::include_url('Slides/02_gdpr_lecture.html')`
 
+Download the slides for this presentation [here](Slides/02_gdpr_lecture.pdf).
+
 `r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
 Under the jurisdiction of GDPR, any information collected about another human can be considered data. Personal Data dsecribes information that can be used to identify another individual. This could be a name, an address, a picture, a video, a voice recording, an online alias, or more. EEG data, for instance, can be identifying, and thus counts as personal data. Sensitive personal data is information that not only identifies an individual, but highlights special information about them that could potentially be harmful if made widely available. This include information such as racial or ethnic origin, political opinions, or religious beliefs, as well as genetic and biometric data.
 
