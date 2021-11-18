@@ -1,0 +1,37 @@
+---
+title: "Programming using Testable"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+Testable.org is a platform for online experiments, used by PPLS to support student dissertations. In this recorded seminar, Octavian introduces the Testable platform, how to program a simple experiment, and how to integrate the platform with the SONA system used for the Psychology Participant Pool  
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand how to create a Testable experiment.
+1. Understand how to link Testable experiments to the SONA system.
+:::
+
+
+# Video
+
+
+For questions and comments, contact [hugh.rabagliati@ed.ac.uk](hugh.rabagliati@ed.ac.uk). Note, this is a screencast, so there are no slides to follow along with.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ECbYOu7ddAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

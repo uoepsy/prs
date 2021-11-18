@@ -48,9 +48,16 @@ navbar:
       #   href: Ethics_07_PPLSEthics.html
     - text: "Building Experiments"
       menu:
-      - text: "Coming Soon"
-      # - text: "1: Part One"
-      #   href: 4_1_part_one.html
+       - text: "1: Introduction"
+         href: Design_01_Introduction.html
+       - text: "2: Experiment Design"
+         href: Design_02_Design.html
+       - text: "3: Avoiding Confounds"
+         href: Design_03_Randomization.html
+       - text: "4: Data Collection"
+         href: Design_04_Datacollection.html
+       - text: "5: Using Testable"
+         href: Design_05_Testable.html
 
   right:
     - text: "Help"

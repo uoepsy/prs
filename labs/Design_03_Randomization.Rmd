@@ -1,0 +1,64 @@
+---
+title: "Randomization"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video provides an overview of the role of randomization in psychology experiments.
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand the role of randomization in independent measures designs
+1. Understand the role of randomization in repeated measures designs
+
+:::
+
+
+# Video
+`r qbegin(1)`
+What are some easy to make mistakes when building experiments? How can we prevent them? 
+
+You can find the answers after the video.
+
+`r qend()`
+
+There are many things that can go wrong in designing a study, but we can prevent the more common mistakes by building experiments in specific ways. In this video, we discuss what are some typical mistakes to look out for and how to prevent them.
+
+Contact for questions and comments: [aba.szollosi@ed.ac.uk](aba.szollosi@ed.ac.uk)
+
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_aucb7cv1&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_o64iyb4g" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+Download the slides for this presentation [here](Slides/Design3Randomization.pdf).
+
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+Failing to randomize participants or stimuli are easy to make mistakes when building an experiment. These can render alternative explanations (e.g., cohort effects, order effects) viable and as such negatively affect what we can learn from the study. Random sampling of participants and experimental stimuli can help avoid these problems. 
+
+`r solend()`
+
+# Quiz
+
+`r qbegin(2)`
+What should we do when our sample is demographically non-representative of the general population? 
+`r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+It depends on whether we have a reason to suspect that non-representativeness can influence our results. If we do think this could present a problem, we may consider representative sampling or a cross-cultural study.
+`r solend()`
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

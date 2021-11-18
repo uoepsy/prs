@@ -1,0 +1,65 @@
+---
+title: "Data Collection"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+This video gives an overview of ways to collect data
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Understand in person and online data collection methods
+1. Understand potential advantages and disadvantages of various data collection methods
+
+:::
+
+
+# Video
+`r qbegin(1)`
+There are various ways to collect data for an experiment, but how should we decide which one is the most suitable for our experiment?
+
+You can find the answers after the video.
+
+`r qend()`
+How we collect data for the experiment we built is not trivial. In this video, we discuss various data collection methods and consider their advantages and disadvantages from different perspectives. 
+
+Contact for questions and comments: [aba.szollosi@ed.ac.uk](aba.szollosi@ed.ac.uk)
+
+
+<iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_9cld9jxx&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_8chk3lkd" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe>
+
+
+Download the slides for this presentation [here](Slides/Design4Datacollection.pdf).
+
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+We can consider the constrains that the various data collection methods place on our experiment. For example, from a sampling perspective, online experiments can reach a more diverse set of participants so we may consider running the study on an online platform. However, if we want to reach a specific sample, we may need to run the experiment in person.
+`r solend()`
+
+# Quiz
+
+`r qbegin(2)`
+ It seems more convenient to collect data online. Why not run all experiments we can online?
+ `r qend()`
+
+`r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)`
+Online data collection became much more accessible and flexible in recent years, and so it is a good way to collect data for many types of experiments. However, there are some arguments in favour of running certain studies in the lab. For example, if we are studying attention and we want to have tighter control over the experimental environment (e.g., to avoid people listening to music while participating in an experiment), in-person experiments provide a better opportunity to achieve this. 
+`r solend()`
+
+
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
