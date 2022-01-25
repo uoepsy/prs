@@ -1,0 +1,76 @@
+---
+title: "Reading and Critically Examining a Psychology Article"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Critically reflect on the aims and goals of the authors
+1. Critically reflect on the ideas of the authors
+
+:::
+
+**Go back and read the article carefully**
+
+When you’ve figured out what the article’s main conclusion is, and what its overall structure is, go back and read it carefully. Pay attention to how the various parts fit together. Most importantly, figure out what the central argument(s) are and the steps taken to build them. What reasons are offered in support of the conclusions? Where in the article are these reasons put forward?
+
+**Also keep an eye out for the following:**
+
+* Notice when and why the author(s) say(s) explicitly what a certain term means.
+* What distinctions are introduced or argued necessary?..
+* Are there any implicit assumptions you think are being relied on? To what extents to do think they hold?
+* How strong is the evidence for the claims (experimental, correlational, sample size, etc.)?
+* Can you think of alternative explanations to those being put forth?
+
+All these things will help you understand the article better. They’ll be crucial when you’re trying to evaluate the authors’ argument, and deciding whether or not you should accept their conclusion. In your notes, make a quick outline of the article’s major argumentative steps. Draw arrows to diagram how you think those pieces link logically. If you can’t do this, go back and look at the article again. You should expect to read an article more than once. Most professors who regularly review articles have to read the same paper several times to fully understand them. Digesting an article takes time, effort, and concentration. You definitely won’t understand everything in an article the first time you read it, and there may be some parts of it you don’t understand even after reading them several times, and you may need to read cited papers to get needed background. 
+
+However, don’t disregard your own independent thoughts about a paper’s argument, and don't assume that the author is always right and that you are wrong. Many published papers make arguments with ‘holes’ in them, and many papers contain outright mistakes. Even more contain statements made unequivocally in situations where reality is actually quite controversial. Ask yourself questions about parts you’re struggling with. If you are asking questions like the below, then you are on the right track:
+
+* What is going on in the second part of the Introduction? What are they claiming about the existing literature? Is it true?
+* Given their question was X, why did they test this way rather than another way? Are there alternative interpretations of key findings that are contradictory or implied by a competing theory(ies)?
+
+In doing this, let your mind range beyond just what you’re reading, to consider other readings on this and other potentially relevant topics and your personal experience with the phenomena involved. This helps to generate potential alternative explanations to those being proposed and identify limitations in study design that are important to critical evaluation. You are never more than any single ‘relevant data point’, but that’s true of each paper author too, and your ‘data point’ is just as relevant as any of theirs. It’s not at all uncommon to find one’s own experience doesn’t jibe well with authors’ proposed processes or explanations, indicating holes in their rationales and suggesting ways of testing them as well as important alternative explanations that should be tested.
+
+
+<!-- # Video -->
+<!-- `r qbegin(1)` -->
+<!-- Part of scientists’ job is to find out when their explanations are wrong. How do you think experiments can help them achieve this aim? -->
+
+<!-- You can find the answer after the video -->
+
+
+<!-- `r qend()` -->
+
+
+<!-- Experiments make a frequent appearance in contemporary psychological science. In this video, we discuss why they are important and what we can learn from them. We will illustrate the answers to these questions with the Stroop task. -->
+
+<!-- This video is presented by Aba Szollosi, who is a postdoctoral researcher in Psychology. Contact: [aba.szollosi@ed.ac.uk](aba.szollosi@ed.ac.uk ) -->
+
+
+
+<!-- <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_rvxb3oxy&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_v1xotko3" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe> -->
+
+<!-- Download the slides for this presentation [here](Slides/Design1Introduction.pdf). -->
+
+<!-- `r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)` -->
+<!-- Experiments can help us achieve this aim by providing tests for our explanations. If the results are not what we expected, we know that there is a problem with our explanation. -->
+
+<!-- `r solend()` -->
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

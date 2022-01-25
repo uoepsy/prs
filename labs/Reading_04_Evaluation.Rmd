@@ -1,0 +1,71 @@
+---
+title: "Reading and Critically Examining a Psychology Article"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+
+At this point, you should be in a position to evaluate the authors’ arguments - you’ve done a lot of work figuring out what they’re saying, and how their arguments work.
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Critically reflect on the ideas of the authors
+
+:::
+
+** Evaluating the argument **
+
+Start by asking yourself questions to probe the quality of the arguments. Some examples might be:
+
+* Do you agree with the authors?
+* If not, what do you think is wrong with their reasoning?
+* Is it the theory itself or is it something about the measures or procedures used to test the theory?
+* Is the theory quite bold but the evidence seemingly weak?
+* Do you think the authors are relying on a questionable assumption(s)? Does that assumption underlie the theory itself or the strengths of their tests?
+* Are you aware of research contradicting the claims?
+
+You will often feel the debates being examined are tangled messes and you don’t know whose argument to believe. There’s no escaping this. Professors feel this way all the time, and in all likelihood it’s basically true, in large part because of pervasive individual psychological differences in how we see the world, but also because we’re a long ways from having adequate measures, theories, and means of testing ideas thoroughly. However, some ideas do hold up better than others to close scrutiny, and it is possible at least to chip away at our current limitations and thus make some progress. By reading thorough and thinking critically about and comparing and contrasting ideas you read with each other and your own experience of the world, you’ll start to get a sense of how various views relate to each other and their relative pros and cons.
+
+Eventually, you may realize that things are even messier than you originally thought, this will be frustrating, and you’ll have to go back to the drawing board. If you’re thinking seriously about it all, it will happen over and over again. You may never reach definitive conclusions. But each time you try to make sense of debates, you’ll understand the issues a little better. That’s the way all sciences progress, and even physicists, for all their ‘established laws’ at a precision psychology can’t begin to touch, are wallowing in this state of befuddlement too, more and more over the years. Science never gets easier. Each apparent ‘answer’ generates further questions, and no one can explore all f the relevant connections objectively. You have to learn to do without definitive answers. At the beginning, you may not be able to come to a settled view about whether you should accept a paper’s central claims, but experience with more and more background literature does help with this – if only to make the limitations of our understandings clearer.
+
+<!-- # Video -->
+<!-- `r qbegin(1)` -->
+<!-- Part of scientists’ job is to find out when their explanations are wrong. How do you think experiments can help them achieve this aim? -->
+
+<!-- You can find the answer after the video -->
+
+
+<!-- `r qend()` -->
+
+
+<!-- Experiments make a frequent appearance in contemporary psychological science. In this video, we discuss why they are important and what we can learn from them. We will illustrate the answers to these questions with the Stroop task. -->
+
+<!-- This video is presented by Aba Szollosi, who is a postdoctoral researcher in Psychology. Contact: [aba.szollosi@ed.ac.uk](aba.szollosi@ed.ac.uk ) -->
+
+
+
+<!-- <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_rvxb3oxy&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_v1xotko3" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe> -->
+
+<!-- Download the slides for this presentation [here](Slides/Design1Introduction.pdf). -->
+
+<!-- `r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)` -->
+<!-- Experiments can help us achieve this aim by providing tests for our explanations. If the results are not what we expected, we know that there is a problem with our explanation. -->
+
+<!-- `r solend()` -->
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>

@@ -8,8 +8,14 @@ navbar:
       href: index.html
     - text: "Reading & Thinking"
       menu:
-      - text: "Coming Soon"
-        #href: 1_1_part_one.html
+      - text: "1: Introduction"
+        href: Reading_01_Introduction.html
+      - text: "2: Signposts"
+        href: Reading_02_Signposts.html
+      - text: "3: Careful Reading"
+        href: Reading_03_CarefulReading.html
+      - text: "4: Evaluation"
+        href: Reading_04_Evaluation.html
     - text: "Asking a Question"
       menu:
       - text: "1: Constructing a hypothesis"

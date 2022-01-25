@@ -1,0 +1,71 @@
+---
+title: "Reading and Critically Examining a Psychology Article"
+bibliography: references.bib
+biblio-style: apalike
+link-citations: yes
+params: 
+    SHOW_SOLS: TRUE
+    TOGGLE: TRUE
+---
+
+
+```{r setup, include=FALSE}
+source('assets/setup.R')
+
+# knitr::opts_chunk$set(cache = TRUE)
+set.seed(1)
+```
+
+It can be difficult to make sense of scientific articles. This is often because they discuss abstract ideas that you’re not accustomed to thinking about. They may also use technical vocabulary which is new to you. Sometimes it won’t be obvious what a paper’s overall argument is. The prose may be complicated, and you may need to pick the article apart sentence by sentence and look technical terms and referenced ideas up, even read cited background papers. 
+In this short course, we will offer some tips to make the process of reading primary research easier and more effective. The key ideas are that you should begin by *skimming* a research article, and recognising its key *sign posts*. Once you have done that, you can do a more careful read where you properly *evaluate its arguments.*
+
+This short course was developed by [Prof. Wendy Johnson](wendy.johnson@ed.ac.uk) and [Dr. Zachary Horne](zachary.horne@ed.ac.uk). It was adapted from the blog post [“Guidelines on reading philosophy”](http://www.jimpryor.net/teaching/guidelines/reading.html) by Jim Pryor at New York University.
+
+
+
+:::lo
+**LEARNING OBJECTIVES**
+
+1. Practice reading psychological research articles quickly and accurately
+
+
+:::
+
+# Skimming an article
+
+Your first task in this course is to skim-read the article that you want to understand. The aim of skimming the article is to find out the conclusion and get a sense of its structure.
+
+Although psychology articles tend to have the same format (i.e., Introduction, Methods, Results, Discussion), the flows of the arguments in the introduction and discussion, and the rationale for descriptions of the methods and results and their levels of detail often vary from paper to paper. A good way to begin when you’re trying to read a difficult article is to skim like this first.
+
+Pay special attention to the abstract and opening and closing paragraphs. Authors summarise there what they intended to argue, and/or what the central question driving their research was. When you figure out what the article’s main conclusion is, try to restate it in your own words. This will help you understand the central theses.
+
+While you’re skimming the article, try to get a general sense of what the authors accomplish in each part of the introduction and how it motivates the importance of and builds the rationale for the analyses the authors report. Doing this will help you think critically about whether these reports actually test the claims made for them.
+
+
+<!-- # Video -->
+<!-- `r qbegin(1)` -->
+<!-- Part of scientists’ job is to find out when their explanations are wrong. How do you think experiments can help them achieve this aim? -->
+
+<!-- You can find the answer after the video -->
+
+
+<!-- `r qend()` -->
+
+
+<!-- Experiments make a frequent appearance in contemporary psychological science. In this video, we discuss why they are important and what we can learn from them. We will illustrate the answers to these questions with the Stroop task. -->
+
+<!-- This video is presented by Aba Szollosi, who is a postdoctoral researcher in Psychology. Contact: [aba.szollosi@ed.ac.uk](aba.szollosi@ed.ac.uk ) -->
+
+
+
+<!-- <iframe id="kaltura_player" src="https://cdnapisec.kaltura.com/p/2010292/sp/201029200/embedIframeJs/uiconf_id/32599141/partner_id/2010292?iframeembed=true&playerId=kaltura_player&entry_id=1_rvxb3oxy&flashvars[streamerType]=auto&amp;flashvars[localizationCode]=en&amp;flashvars[leadWithHTML5]=true&amp;flashvars[sideBarContainer.plugin]=true&amp;flashvars[sideBarContainer.position]=left&amp;flashvars[sideBarContainer.clickToClose]=true&amp;flashvars[chapters.plugin]=true&amp;flashvars[chapters.layout]=vertical&amp;flashvars[chapters.thumbnailRotator]=false&amp;flashvars[streamSelector.plugin]=true&amp;flashvars[EmbedPlayer.SpinnerTarget]=videoHolder&amp;flashvars[dualScreen.plugin]=true&amp;flashvars[Kaltura.addCrossoriginToIframe]=true&amp;&wid=1_v1xotko3" width="608" height="402" allowfullscreen webkitallowfullscreen mozAllowFullScreen allow="autoplay *; fullscreen *; encrypted-media *" sandbox="allow-forms allow-same-origin allow-scripts allow-top-navigation allow-pointer-lock allow-popups allow-modals allow-orientation-lock allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation" frameborder="0" title="Kaltura Player"></iframe> -->
+
+<!-- Download the slides for this presentation [here](Slides/Design1Introduction.pdf). -->
+
+<!-- `r solbegin(show = params$SHOW_SOLS, toggle = params$TOGGLE)` -->
+<!-- Experiments can help us achieve this aim by providing tests for our explanations. If the results are not what we expected, we know that there is a problem with our explanation. -->
+
+<!-- `r solend()` -->
+
+
+<div class="tocify-extend-page" data-unique="tocify-extend-page" style="height: 0;"></div>
